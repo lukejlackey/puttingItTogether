@@ -4,9 +4,9 @@ class PersonCard extends Component{
     render(){
         return(
             <div>
-                <h2>{this.lastName} {this.firstName}</h2>
-                <p>Age: {this.age}</p>
-                <p>Hair Color: {this.hairColor}</p>
+                <h2>{this.props.lastName}, {this.props.firstName}</h2>
+                <p>Age: {this.props.age}</p>
+                <p>Hair Color: {this.props.hairColor}</p>
             </div>
         )
     }
